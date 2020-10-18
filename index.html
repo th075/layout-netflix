@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Netflix</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/nficon2016.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="navbar navbar-dark bg-dark fixed-top">
+        <button type="button" class="navbar-toggler d-lg-none"><!--A classe d-lg-none significa que apenas no display "Lg" a classe do botao do menu ira sumir-->
+            <img src="assets/images/hamburger.gif" alt="Menu">
+        </button>
+
+        <a href="#" class="navbar-brand flex-grow-1">
+            <img src="assets/images/logo.png" alt="Netflix" class="my-1 mx-2">
+        </a>
+
+        <ul class="nav text-white d-none d-lg-flex">
+            <li class="nav-item"><a href="#" class="nav-link active text-reset d-xl-none">Navegar</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-reset d-xl-none">Infantil</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-reset d-none d-xl-flex active">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-reset d-none d-xl-flex">Séries</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-reset d-none d-xl-flex">Filmes</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-reset d-none d-xl-flex">Adicionados Recentemente</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-reset d-none d-xl-flex">Minha Lista</a></li>
+        </ul>
+
+        <form action="#" class="form-inline">
+            <input type="search" class="form-control" placeholder="Busca">
+        </form>
+
+        <div class="media text-white p-2 d-none d-lg-flex">
+            <img src="assets/images/wallpaper.jpg" alt="Avatar" class="mr-2">
+            <div class="media-body">
+                <p class="h6 m-0">THIAGO MIRANDA</p>
+            </div>
+        </div>
+
+    
+        <ul class="list-unstyled font-weight-bold sidebar">
+            <li class="media media-avatar">
+                <img src="assets/images/wallpaper.jpg" alt="Avatar" class="mr-2">
+                <div class="media-body">
+                    <p class="h6 m-0">THIAGO MIRANDA</p>
+                    <small>Trocar Perfil</small>
+                </div>
+            </li>
+            <li class="divider"></li>
+            <li><a href="" class="text-reset">Início</a></li>
+            <li><a href="" class="text-reset">Minha Lista</a></li>
+            <li><a href="" class="text-reset">Séries de Ação e Aventura</a></li>
+            <li><a href="" class="text-reset">Ação e Aventura</a></li>
+            <li><a href="" class="text-reset">Séries Teen</a></li>
+            <li><a href="" class="text-reset">Filmes Africanos</a></li>
+            <li><a href="" class="text-reset">Séries da América Latina</a></li>
+            <li><a href="" class="text-reset">Filmes de Anime</a></li>
+        </ul>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 fullbaner text-white">
+                <div class="p-4 d-flex justify-content-start align-items-center h-100">
+                    <div>
+                        <h1 class="h3">Vingadores: Ultimato</h1>
+                        <small class="d-flex my-2">
+                            <span class="mr-3">2019</span>
+                            <span class="mr-3">12</span>
+                            <span class="mr-3">182 min</span>
+                        </small>
+                        <p class="d-none d-lg-block"><!--Essas classes significam que em todas as classes esse paragrafo nao aparecerá, exceto na tela "lg" que ele ficará visivel-->
+                            Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.
+                        </p>
+                        <a href="#" class="btn btn-primary text-uppercase font-weight-bold">Assistir</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="p-3 list-titles">
+                    <h2 class="h4">Adicionados recentemente</h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a href="" class="px-1 my-3"><img src="assets/images/capitao-america-o-primeiro-vingador.jpg" alt="Capitao America" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/better-call-saul.jpg" alt="Better Call" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/thor-o-mundo-sombrio.jpg" alt="Thor" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/greys-anatomy.jpg" alt="Greys Anatomy" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/homem-de-ferro-2.jpg" alt="Homem de Ferro 2" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/guardios-da-galaxia.jpg" alt="Guardioes da Galaxia" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/homem-de-ferro-2.jpg" alt="Homem de Ferro" class="w-100"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="p-3 list-titles">
+                    <h2 class="h4">Em alta</h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a href="" class="px-1 my-3"><img src="assets/images/the-rain.jpg" alt="The Rain" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/o-menino-que-descobriu-o-vento.jpg" alt="O menino que descobriu o vento" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/eu-sou-a-lenda.jpg" alt="Eu sou a lenda" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/better-call-saul.jpg" alt="Better Call" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/thor-o-mundo-sombrio.jpg" alt="Thor" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/vingadores-era-de-ultron.jpg" alt="Vingadores" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/homem-de-ferro-2.jpg" alt="Homem de Ferro" class="w-100"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="p-3 list-titles">
+                    <h2 class="h4">Continuar assistindo como <span class="text-uppercase">Thiago Miranda</span></h2>
+                    <div class="d-flex flex-nowrap overflow-hidden">
+                        <a href="" class="px-1 my-3"><img src="assets/images/homem-de-ferro-2.jpg" alt="Homem de Ferro 2" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/homem-de-ferro.jpg" alt="Homem de Ferro" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/guardios-da-galaxia.jpg" alt="Guardioes da Galaxia" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/capitao-america-o-primeiro-vingador.jpg" alt="Capitao America" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/vingadores-era-de-ultron.jpg" alt="Vingadores" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/greys-anatomy.jpg" alt="Greys Anatomy" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100"></a>
+                        <a href="" class="px-1 my-3"><img src="assets/images/o-menino-que-descobriu-o-vento.jpg" alt="O menino que descobriu o vento" class="w-100"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="row no-gutters p-4">
+            <a href="" class="col-12 col-md-3 text-reset">Termos de Uso</a>
+            <a href="" class="col-12 col-md-3 text-reset">Declaração de Pivacidade</a>
+            <a href="" class="col-12 col-md-3 text-reset">Preferência de Cookies</a>
+            <a href="" class="col-12 col-md-3 text-reset">Centro de Ajuda</a>
+        </footer>
+    </div>
+
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(() => {
+        let btn = $('.navbar-toggler');
+        let navbar = $('.navbar');
+        
+        btn.on('click', e => {
+
+            navbar.toggleClass('sidebar-open');
+            if(navbar.hasClass('sidebar-open')){
+
+                let backdrop = document.createElement('div');
+                backdrop.classList.add('backdrop');
+                backdrop.addEventListener('click', e => {
+
+                    navbar.removeClass('sidebar-open');
+                    $('.backdrop').remove();
+                    
+                });
+
+                $('body').append(backdrop);
+
+            }else{
+                $('.backdrop').remove();
+            }
+        });
+
+    });
+</script>
+</body>
+</html>
